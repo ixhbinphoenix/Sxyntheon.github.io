@@ -1,0 +1,31 @@
+html {
+    text-align: center;
+    font-family: "Figtree", sans-serif;
+    font-size: min(20px, 5vw);
+    line-height: min(20px, 2.5);
+}
+table {
+    padding-top: .5rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+th {
+    font-size: min(15px, 2.5vw);
+    border-style: solid;
+    border-width: 0.01vw;
+    padding: .5rem;
+}
+.highlight {
+     background-color: yellow !important;
+}
+.selected {
+    background-color: rgb(73, 174, 208);
+}
+input {
+    border-color: black;
+    border-width: .1vw;
+    font-size: min(20px, 5vw);
+    border-radius: .35vw;
+}
