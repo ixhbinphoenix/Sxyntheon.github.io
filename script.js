@@ -36,6 +36,11 @@ window.onload = function () {
     let typeInterval = 500;  
     let searchInput = document.getElementById('searchbar');
 
+    select("monday");
+    select("tuesday");
+    select("wednesday");
+    select("thursday");
+    select("friday");
     searchInput.addEventListener('keyup', () => {
         clearTimeout(typingTimer);
         typingTimer = setTimeout(searchLive, typeInterval);
