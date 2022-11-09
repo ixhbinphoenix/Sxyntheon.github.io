@@ -19,17 +19,17 @@ function searchLive() {
         }
     }
 }
-function select(day) {
-            let boxes = document.getElementsByClassName(day)
-            for(var i = 0; i < boxes.length; i++) {
-                if(boxes[i].classList.contains("selected")) {
-                    boxes[i].classList.remove("selected")
-                    boxes[i].classList.remove("highlight")
-                }
-                else {
-                    boxes[i].classList.add("selected")
-                }
+function select(input) {  
+    let boxes = document.getElementsByClassName(input)
+    for(var i = 0; i < boxes.length; i++) {
+        if(boxes[i].classList.contains("selected")) {
+            boxes[i].classList.remove("selected")
+            boxes[i].classList.remove("highlight")
             }
+        else {
+            boxes[i].classList.add("selected")
+        }
+    }
 }
 window.onload = function () {
     let typingTimer;               
@@ -65,4 +65,44 @@ window.onload = function () {
     friday.addEventListener("click", () => {
         select("friday")
     });
+    let lesson1 = document.getElementById("1");
+    lesson1.addEventListener("click", () => {
+        select("1")
+    })
+    let lesson2 = document.getElementById("2");
+    lesson2.addEventListener("click", () => {
+        select("2")
+    })
+    let lesson3 = document.getElementById("3");
+    lesson3.addEventListener("click", () => {
+        select("3")
+    })
+    let lesson4 = document.getElementById("4");
+    lesson4.addEventListener("click", () => {
+        select("4")
+    })
+    let lesson5 = document.getElementById("5");
+    lesson5.addEventListener("click", () => {
+        select("5")
+    })
+    let lesson6 = document.getElementById("6");
+    lesson6.addEventListener("click", () => {
+        select("6")
+    })
+    let lesson7 = document.getElementById("7");
+    lesson7.addEventListener("click", () => {
+        select("7")
+    })
+    let lesson8 = document.getElementById("8");
+    lesson8.addEventListener("click", () => {
+        select("8")
+    })
+    let lesson9 = document.getElementById("9");
+    lesson9.addEventListener("click", () => {
+        select("9")
+    })
+    let lesson10 = document.getElementById("10");
+    lesson10.addEventListener("click", () => {
+        select("10")
+    })
 }
