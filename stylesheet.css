@@ -60,7 +60,7 @@ th {
     background-color: rgb(0, 191, 255);
 }
 input {
-    background-color: rgba(255, 255, 255, 0.74);
+    background-color: white;
     border-color: black;
     border-width: .1vw;
     font-size: min(20px, 5vw);

@@ -1,6 +1,9 @@
 function searchLive() {
     let query = document.getElementById("searchbar").value.toUpperCase();
     if(query == "D" || query == "M" || query == "E" || query == "GE" || query == "SW" || query == "EK" || query == "PL" || query == "MU" || query == "PA" || query == "R" || query == "IF" || query == "PH" || query == "CH" || query == "L" || query  == "BI" || query == "S" || query == "N" || query == "LI") {
+        if(query == "E") {
+            query = query + "​" //invisible unicode character U+200B, not nice but works
+        }
         query = query + ";"
     }
     let boxes = document.querySelectorAll(".selected")
