@@ -30,7 +30,6 @@ font license can be found here: https://raw.githubusercontent.com/erikdkennedy/f
          url('./fonts/figtree-v1-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('./fonts/figtree-v1-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
 html {
     background-image: linear-gradient(45deg, rgba(64, 236, 255, 0.776),rgba(27, 155, 205, 0.557) 75%) ;
     text-align: center;
