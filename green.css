@@ -53,6 +53,14 @@ th {
     border-width: 0.01vw;
     padding: .5rem;
 }
+.empty-element {
+    background-color: transparent;
+    border: none;
+}
+.top-bar {
+    position: sticky;
+    top: .05rem;
+}
 .highlight {
     background-color: rgb(0, 166, 255) !important;
 }
