@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link id="pagestyle" rel="stylesheet" href="blue.css">
     <link rel="icon" href="favicon.svg">
     <script src="script.js"></script>
     <meta charset="UTF-8">
@@ -11,7 +11,13 @@
 </head>
 <body>
     <h1>Willkommen beim <span class="gradient">Lernbüro Dashboard.</span></h1>
-    <p>Aktueller als ISERV!</p>
+    <span>Es gibt neue Farben</span>
+    <label id="switch">
+        <input type="checkbox" onclick="swapStylesheet()">
+        <span class="round" id="slider"></span>
+    </label>
+    <br>
+    <br>    
     <input id="searchbar" type="search" placeholder="Suche...">
     <table>
         <tr class="top-bar"> 

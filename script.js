@@ -34,7 +34,15 @@ function select(input) {
         }
     }
 }
-window.onload = function () {
+function swapStylesheet() {
+    if(document.getElementById("pagestyle").getAttribute("href") == "blue.css") {
+        document.getElementById("pagestyle").setAttribute("href", "green.css");
+    }
+    else {
+        document.getElementById("pagestyle").setAttribute("href", "blue.css"); 
+    }  
+}
+window.onload = function () {    
     let typingTimer;               
     let typeInterval = 500;  
     let searchInput = document.getElementById('searchbar');
